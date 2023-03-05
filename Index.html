@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pagina Index</title>
+      <link rel="stylesheet" href="./Assets/stylus.css">
+</head>
+<body>
+    <section class="Container">
+      <h1>Formulário do Ti:</h1>
+      <ul>
+        <li>Nenhum campo pode estar vazio</li>
+        <li>Usuário só poderá conter letras e/ou números</li>
+        <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+        <li>Senha precisa ter entre 6 e 12 caracteres</li>
+      </ul>
+      
+      <form action="/" method="POST" class='formulario'>
+        <p>
+        <label>Nome</label>
+        <input type="text" class="nome validar">
+        </p><p>
+        <label>Sobrenome</label>
+        <input type="text" class="sobrenome validar">
+        </p><p>
+        <label>CPF</label>
+        <input type="text" class="cpf validar">
+        </p><p>
+        <label>Usuário</label>
+        <input type="text" class="usuario validar">
+        </p><p>
+        <label>Senha</label>
+        <input type="password" class="senha validar">
+       </p><p>
+        <label>Repetir Senha</label>
+        <input type="password" class="repetir-senha validar">
+        </p><p>
+        <button type="submit">Enviar</button></p>
+      </form>
+      </section>
+    <script src="./Assets/validaCpf.js"></script>
+    <script src='./Assets/Index.js'></script>
+</body>
+</html>
